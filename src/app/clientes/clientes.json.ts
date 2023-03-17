@@ -12,4 +12,5 @@ export const CLIENTES: Cliente[] =[
     {id:10, nombre:'MOHAMMED10 REDA', apellido:'HAMDAN10 ', email: 'test10@gmail.com', createAt: '2023-03-05'},
     {id:11, nombre:'MOHAMMED11 REDA', apellido:'HAMDAN11 ', email: 'test11@gmail.com', createAt: '2023-03-04'},
     {id:13, nombre:'MOHAMMED12 REDA', apellido:'HAMDAN12 ', email: 'test12@gmail.com', createAt: '2023-03-03'}
+    {id:12, nombre:'MOHAMMED12 REDA', apellido:'HAMDAN12 ', email: 'test12@gmail.com', createAt: '2023-03-03'}
   ]
