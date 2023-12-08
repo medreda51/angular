@@ -1,6 +1,0 @@
-diff a/src/app/clientes/clientes.json.ts b/src/app/clientes/clientes.json.ts	(rejected hunks)
-@@ -11,6 +11,7 @@
-      {id:9, nombre:'MOHAMMED9 REDA', apellido:'HAMDAN9 ', email: 'test9@gmail.com', createAt: '2023-03-06'},
-      {id:10, nombre:'MOHAMMED10 REDA', apellido:'HAMDAN10 ', email: 'test10@gmail.com', createAt: '2023-03-05'},
-      {id:11, nombre:'MOHAMMED11 REDA', apellido:'HAMDAN11 ', email: 'test11@gmail.com', createAt: '2023-03-04'},
-

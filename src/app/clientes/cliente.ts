@@ -1,9 +1,12 @@
-export class Cliente {
+import { Region } from './region';
+ export class Cliente {
     id: number;
     nombre: string;
     apellido: string;
     createAt: string;
     email: string;
+    foto:string;
+    region:Region;
 
     constructor(){
         this.id=0;
@@ -11,5 +14,7 @@ export class Cliente {
         this.apellido='';
         this.createAt='';
         this.email='';
+        this.foto='';
+        this.region= new Region();
     }
 }

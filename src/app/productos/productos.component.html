@@ -1,0 +1,28 @@
+<div class="card border-primary mb-3">
+    <div class="card-header">Productos</div>
+    <div class="card-body text-primary">
+      <h5 class="card-title">Listado de Productos</h5>
+      
+      <table class="table table-bordered table-striped">
+            <thead>
+                <tr> 
+                    <th>id</th>
+                    <th>Name</th>
+                    <th>Brand</th>
+                    <th> Published</th>
+                    <th>Category</th>
+                </tr>
+            </thead>
+
+        <tbody>
+            <tr *ngFor="let producto of productos">
+                <td>{{producto.id}}</td>
+                <td>{{producto.name}}</td>
+                <td>{{producto.brand}}</td>
+                <td>{{producto.published}}</td>
+                <td>{{producto.category}}</td>
+            </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
